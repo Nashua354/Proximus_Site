@@ -514,7 +514,11 @@ textarea {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
-
+.hovertest:hover {
+    background-color: white;
+    border-radius: 10px;
+    border:2px black;
+}
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
